@@ -1,4 +1,4 @@
-# hamilton-startlet-scripts
+# hamilton-starlet-scripts
 A place for Hamilton StarLet scripts using PyLabRobot. 
 
 # Orange G Tests
