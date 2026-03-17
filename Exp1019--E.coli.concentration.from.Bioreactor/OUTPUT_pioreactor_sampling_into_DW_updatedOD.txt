@@ -1,0 +1,136 @@
+START: 202 {"unit":"leaderE1","task_id":"571c7209-8bb8-41e5-accd-f2660d8dbfc3","result_url_path":"/unit_api/task_results/571c7209-8bb8-41e5-accd-f2660d8dbfc3"}
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"60cb7f44-bda8-4255-9989-e05426d96ca5","result_url_path":"/unit_api/task_results/60cb7f44-bda8-4255-9989-e05426d96ca5"}
+Run started at 09:30:10. Estimated completion ~ 16:10:10.
+
+Cycle 1/11 — begin 09:30:10, next cycle ETA 10:10:10
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"9215d481-b60f-4e10-9fcd-3702c33f06ad","result_url_path":"/unit_api/task_results/9215d481-b60f-4e10-9fcd-3702c33f06ad"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"41848949-b13e-4c57-a47f-88e67404d000","result_url_path":"/unit_api/task_results/41848949-b13e-4c57-a47f-88e67404d000"}
+START: 202 {"unit":"leaderE1","task_id":"84ed73da-90c6-45ee-b830-4632ea6e702e","result_url_path":"/unit_api/task_results/84ed73da-90c6-45ee-b830-4632ea6e702e"}
+Waiting to start cycle 2/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 2/11 — begin 10:10:54, next cycle ETA 10:50:54
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"a859f410-55ac-4c7c-b124-416363fd7ae2","result_url_path":"/unit_api/task_results/a859f410-55ac-4c7c-b124-416363fd7ae2"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"3a32ef4c-3a22-4deb-b66a-06297e6abb45","result_url_path":"/unit_api/task_results/3a32ef4c-3a22-4deb-b66a-06297e6abb45"}
+START: 202 {"unit":"leaderE1","task_id":"90cb6f5c-fe7b-45e0-a80f-646af14aa5b2","result_url_path":"/unit_api/task_results/90cb6f5c-fe7b-45e0-a80f-646af14aa5b2"}
+Waiting to start cycle 3/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 3/11 — begin 10:51:38, next cycle ETA 11:31:38
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"e8ff48e2-b18c-4079-9289-1e953d2e728a","result_url_path":"/unit_api/task_results/e8ff48e2-b18c-4079-9289-1e953d2e728a"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"7e48555a-34b0-48f0-9ccf-8a4c79298743","result_url_path":"/unit_api/task_results/7e48555a-34b0-48f0-9ccf-8a4c79298743"}
+START: 202 {"unit":"leaderE1","task_id":"85c31841-63a1-4e38-8f0b-85f90b1845e0","result_url_path":"/unit_api/task_results/85c31841-63a1-4e38-8f0b-85f90b1845e0"}
+Waiting to start cycle 4/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 4/11 — begin 11:32:21, next cycle ETA 12:12:21
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"663a14da-37b5-4e58-b838-28cbecec1ead","result_url_path":"/unit_api/task_results/663a14da-37b5-4e58-b838-28cbecec1ead"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"786f6a38-4c16-44ef-adce-ba01a1e3a5b9","result_url_path":"/unit_api/task_results/786f6a38-4c16-44ef-adce-ba01a1e3a5b9"}
+START: 202 {"unit":"leaderE1","task_id":"4e024c45-d0af-4ddc-ba39-54ff42500f8f","result_url_path":"/unit_api/task_results/4e024c45-d0af-4ddc-ba39-54ff42500f8f"}
+Waiting to start cycle 5/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 5/11 — begin 12:13:05, next cycle ETA 12:53:05
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"0e3d04da-a729-4abb-aced-e3ca8bbdc240","result_url_path":"/unit_api/task_results/0e3d04da-a729-4abb-aced-e3ca8bbdc240"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"c603c1fc-1549-4612-83b5-afbfa81ef771","result_url_path":"/unit_api/task_results/c603c1fc-1549-4612-83b5-afbfa81ef771"}
+START: 202 {"unit":"leaderE1","task_id":"aaa98dbb-1025-4928-8a49-9822d42958ea","result_url_path":"/unit_api/task_results/aaa98dbb-1025-4928-8a49-9822d42958ea"}
+Waiting to start cycle 6/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 6/11 — begin 12:53:49, next cycle ETA 13:33:49
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"8e6a6271-3dae-4921-9941-a44024f0ec75","result_url_path":"/unit_api/task_results/8e6a6271-3dae-4921-9941-a44024f0ec75"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"17cf3f24-c6df-4e30-896d-bd23ed245115","result_url_path":"/unit_api/task_results/17cf3f24-c6df-4e30-896d-bd23ed245115"}
+START: 202 {"unit":"leaderE1","task_id":"3ca7f00d-22c8-42d9-9a73-1ad0dd8aa1da","result_url_path":"/unit_api/task_results/3ca7f00d-22c8-42d9-9a73-1ad0dd8aa1da"}
+Waiting to start cycle 7/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 7/11 — begin 13:34:33, next cycle ETA 14:14:33
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"1445ced0-437c-4179-b2f6-da75181c4f39","result_url_path":"/unit_api/task_results/1445ced0-437c-4179-b2f6-da75181c4f39"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"867cc234-fa58-41ea-9e8a-6514b3fa5c71","result_url_path":"/unit_api/task_results/867cc234-fa58-41ea-9e8a-6514b3fa5c71"}
+START: 202 {"unit":"leaderE1","task_id":"b1e8edff-331a-4dd6-8d55-7a01167bcaae","result_url_path":"/unit_api/task_results/b1e8edff-331a-4dd6-8d55-7a01167bcaae"}
+Waiting to start cycle 8/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 8/11 — begin 14:15:16, next cycle ETA 14:55:16
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"28f77a7b-f952-4b1f-afe4-6ecf609460dc","result_url_path":"/unit_api/task_results/28f77a7b-f952-4b1f-afe4-6ecf609460dc"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"4fe877d1-013b-4ead-967f-a5a910898b35","result_url_path":"/unit_api/task_results/4fe877d1-013b-4ead-967f-a5a910898b35"}
+START: 202 {"unit":"leaderE1","task_id":"cee1586a-8e81-46e8-bb78-84a1d40a6bc2","result_url_path":"/unit_api/task_results/cee1586a-8e81-46e8-bb78-84a1d40a6bc2"}
+Waiting to start cycle 9/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 9/11 — begin 14:56:00, next cycle ETA 15:36:00
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"fe9d7c6c-1316-443a-9928-d9ab2ab35d5d","result_url_path":"/unit_api/task_results/fe9d7c6c-1316-443a-9928-d9ab2ab35d5d"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"397c7ad1-ce42-4ca4-87be-67bdde58fb85","result_url_path":"/unit_api/task_results/397c7ad1-ce42-4ca4-87be-67bdde58fb85"}
+START: 202 {"unit":"leaderE1","task_id":"31daa964-0f40-4310-90ba-c4b23ac5380a","result_url_path":"/unit_api/task_results/31daa964-0f40-4310-90ba-c4b23ac5380a"}
+Waiting to start cycle 10/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 10/11 — begin 15:36:43, next cycle ETA 16:16:43
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"38620b47-6767-4e05-893c-731eea303410","result_url_path":"/unit_api/task_results/38620b47-6767-4e05-893c-731eea303410"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"abb67bc5-3a87-4e7b-a69f-cf92be06c3b7","result_url_path":"/unit_api/task_results/abb67bc5-3a87-4e7b-a69f-cf92be06c3b7"}
+START: 202 {"unit":"leaderE1","task_id":"6210f841-55cd-4c46-bf34-0195587e9ba8","result_url_path":"/unit_api/task_results/6210f841-55cd-4c46-bf34-0195587e9ba8"}
+Waiting to start cycle 11/11: 00:00 remaining. Starting next cycle...       
+
+
+Cycle 11/11 — begin 16:17:27, final cycle
+STOP specific: 202 {"status":"success"}
+Confirmed: stirring stopped.
+STOP od_reading specific: 202 {"status":"success"}
+Confirmed: od_reading stopped.
+OD snapshot run: 202 {"unit":"leaderE1","task_id":"944da88e-f26c-4157-9860-dd07e2a3a5e6","result_url_path":"/unit_api/task_results/944da88e-f26c-4157-9860-dd07e2a3a5e6"}
+OD snapshot status: completed
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"a7c104c4-7e6a-4812-8d92-9696b3608a8e","result_url_path":"/unit_api/task_results/a7c104c4-7e6a-4812-8d92-9696b3608a8e"}
+START: 202 {"unit":"leaderE1","task_id":"85f1fb63-10ab-4aee-85f1-8acef616988e","result_url_path":"/unit_api/task_results/85f1fb63-10ab-4aee-85f1-8acef616988e"}
+RUN od_reading (continuous): 202 {"unit":"leaderE1","task_id":"bb4d873d-213b-44ff-8093-d5735a6cc6c3","result_url_path":"/unit_api/task_results/bb4d873d-213b-44ff-8093-d5735a6cc6c3"}
+START: 202 {"unit":"leaderE1","task_id":"e4faae42-6dd6-404f-b40b-7cfd7e76c264","result_url_path":"/unit_api/task_results/e4faae42-6dd6-404f-b40b-7cfd7e76c264"}
+All cycles complete. Continuous od_reading + stirring left running.
