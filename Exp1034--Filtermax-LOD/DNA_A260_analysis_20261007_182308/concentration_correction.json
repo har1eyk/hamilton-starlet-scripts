@@ -1,0 +1,10 @@
+{
+  "source": "User clarification in this analysis conversation on 2026-10-07",
+  "statement": "the highest DNA concentration in tube A30 was 70ng/ul",
+  "original_export_A30_ng_uL": 16,
+  "analysis_A30_ng_uL": 70,
+  "scale_factor": 4.375,
+  "nominal_dilution_mapping_ng_uL": {"A30": 70, "A29": 35, "A28": 17.5, "A27": 8.75, "A26": 4.375, "A25": 2.1875, "A31": 0},
+  "assumption": "The existing twofold dilution series is unchanged; downstream concentrations are nominal, not independently measured by this read.",
+  "preservation": "Original CSVs, run manifest and layout JSON are unmodified. well_results.csv retains original planned_dna_concentration_ng_uL and adds the corrected analysis concentration."
+}

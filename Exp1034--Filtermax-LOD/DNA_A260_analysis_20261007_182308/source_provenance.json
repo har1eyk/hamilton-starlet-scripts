@@ -1,0 +1,37 @@
+[
+  {
+    "source": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/runs/dna-a260-f5-20261007T182308Z-4a000d5d/blank_summary.csv",
+    "copy": "inputs/blank_summary.csv",
+    "sha256": "bcabf40d6496480474741e4b31e1a382d832a26e81aab7cb146a08fc03756c8d"
+  },
+  {
+    "source": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/runs/dna-a260-f5-20261007T182308Z-4a000d5d/raw_backend_results.json",
+    "copy": "inputs/raw_backend_results.json",
+    "sha256": "d033c8f0d437fec137e90ee85fc74bc8bcbc1826377e7b48961a9113dd9059a9"
+  },
+  {
+    "source": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/runs/dna-a260-f5-20261007T182308Z-4a000d5d/reader_metadata.json",
+    "copy": "inputs/reader_metadata.json",
+    "sha256": "1f0bd001e4932b0e1cc1475e690a3fad648da19f8907a8e8d50efd444da9f8a4"
+  },
+  {
+    "source": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/runs/dna-a260-f5-20261007T182308Z-4a000d5d/raw_a260.csv",
+    "copy": "inputs/raw_a260.csv",
+    "sha256": "233fac1261ca6d58fc57112a17ad61575b25735c9a3c7f2959d30985260d9ff8"
+  },
+  {
+    "source": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/runs/dna-a260-f5-20261007T182308Z-4a000d5d/blank_corrected_a260.csv",
+    "copy": "inputs/blank_corrected_a260.csv",
+    "sha256": "67776a102d6321f9a2167ffcf0eb20603c7e0a524d88cfaab09ebb8ff800c982"
+  },
+  {
+    "source": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/runs/dna-a260-f5-20261007T182308Z-4a000d5d/well_manifest.csv",
+    "copy": "inputs/well_manifest.csv",
+    "sha256": "314613a1af0f71edfdcdaea35b4c8b09f20b942d71728b4381047485eab9c71d"
+  },
+  {
+    "source": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/well_assignments.json",
+    "copy": "inputs/well_assignments.json",
+    "sha256": "8b6de1fa0b5ad7a7dfe075c1d351809c92d11f0b07c7fa5463737d3a94140bdd"
+  }
+]

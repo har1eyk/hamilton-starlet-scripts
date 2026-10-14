@@ -1,0 +1,45 @@
+EXP1034 ORANGE G - NOMINAL PLATE MAP
+Each cell: source tube / intended uL. Columns follow printed well names.
+A31 is the buffer source in the original experiment map; dye preparation is unconfirmed.
+
+       1         2         3         4         5         6         7         8         9         10        11        12    
+A   A27/200   A28/100   A27/075   A30/050   A28/200   A27/100   A31/075   A25/050   A31/200   A31/100   A25/075   A31/050  
+B   A27/100   A31/075   A30/050   A27/200   A31/100   A30/075   A27/050   A29/200   A29/100   A29/075   A29/050   A31/200  
+C   A25/075   A29/050   A29/200   A26/100   A26/075   A31/050   A31/200   A30/100   A28/075   A25/050   A26/200   A31/100  
+D   A26/050   A26/200   A31/100   A26/075   A28/050   A28/200   A30/100   A25/075   A25/050   A31/200   A27/100   A31/075  
+E   A31/200   A25/100   A30/075   A31/050   A25/200   A31/100   A28/075   A29/050   A30/200   A30/100   A31/075   A26/050  
+F   A29/100   A29/075   A26/050   A30/200   A28/100   A27/075   A31/050   A25/200   A25/100   A31/075   A28/050   A26/200  
+G   A29/075   A31/050   A27/200   A29/100   A28/075   A27/050   A29/200   A26/100   A27/075   A28/050   A25/200   A28/100  
+H   A30/050   A30/200   A26/100   A31/075   A31/050   A31/200   A31/100   A30/075   A27/050   A28/200   A25/100   A26/075  
+
+These are intended volumes, not measured volumes.
+
+SOURCE / VOLUME GROUPS
+A31  200 uL : A9, B12, C7, D10, E1, H6
+A30  200 uL : H2, E9, F4
+A29  200 uL : G7, B8, C3
+A28  200 uL : A5, D6, H10
+A27  200 uL : B4, A1, G3
+A26  200 uL : D2, F12, C11
+A25  200 uL : F8, G11, E5
+A31  100 uL : A10, B5, C12, D3, E6, H7
+A30  100 uL : C8, E10, D7
+A29  100 uL : G4, B9, F1
+A28  100 uL : A2, F5, G12
+A27  100 uL : D11, A6, B1
+A26  100 uL : G8, H3, C4
+A25  100 uL : E2, F9, H11
+A31   75 uL : A7, B2, D12, E11, F10, H4
+A30   75 uL : H8, E3, B6
+A29   75 uL : G1, F2, B10
+A28   75 uL : G5, C9, E7
+A27   75 uL : F6, G9, A3
+A26   75 uL : C5, D4, H12
+A25   75 uL : D8, C1, A11
+A31   50 uL : A12, C6, E4, F7, G2, H5
+A30   50 uL : H1, B3, A4
+A29   50 uL : B11, E8, C2
+A28   50 uL : D5, G10, F11
+A27   50 uL : G6, H9, B7
+A26   50 uL : F3, E12, D1
+A25   50 uL : A8, D9, C10

@@ -1,0 +1,85 @@
+{
+  "selected_wells": [
+    "C6",
+    "C7",
+    "C12"
+  ],
+  "well_count": 3,
+  "hardware_rows": [
+    "C"
+  ],
+  "selection_behavior": "Hardware scans the inclusive row span; selected wells are retained.",
+  "wavelength": 260,
+  "port": "/dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller_BFADb2A8J14-if00-port0",
+  "expected_serial": "1191",
+  "plate_geometry": {
+    "rows": 8,
+    "columns": 12,
+    "length": 127.7,
+    "width": 85.7,
+    "height": 14.27,
+    "well_depth": 10.69,
+    "left_column_offset": 14.05,
+    "top_row_offset": 11.18,
+    "column_spacing": 9.02,
+    "row_spacing": 9.0,
+    "well_size_x": 6.4,
+    "well_size_y": 6.4,
+    "absorbance_z": 10.27,
+    "name": "96 Well Costar clear [Portrait]",
+    "orientation": "portrait"
+  },
+  "geometry_source": "PLR Costar 96 clear portrait profile",
+  "catalog_filter": {
+    "kind": "excitation",
+    "slide_id": 2,
+    "position": 1,
+    "wavelength": 260,
+    "bandwidth": 12
+  },
+  "catalog_path": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/helper-scripts/filtermax_slides.xml",
+  "catalog_sha256": "ab616a396db8d22830554467f12df5aed7ccc6ee77c306bc778795d8f222f2a7",
+  "module_path": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/helper-scripts/read_dna_a260_selected_wells.py",
+  "module_sha256": "d5060ec247be788af0d9d49f649a0e59325b584b815c1358bf09aac2743c87e5",
+  "pylabrobot_file": "/home/hamilton-robot/Documents/Hamilton-Starlet/pylabrobot/pylabrobot/__init__.py",
+  "python_executable": "/home/hamilton-robot/anaconda3/envs/pylabrobot-env/bin/python",
+  "output": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/helper-scripts/runs/dna-a260-selected-20261010T131352Z-5d77339b",
+  "raw_csv": "raw_a260.csv",
+  "raw_csv_blank_subtracted": false,
+  "pathlength_correction_applied": false,
+  "reference_subtracted": false,
+  "notebook_path": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/helper-scripts/read_dna_a260_selected_wells.ipynb",
+  "notebook_sha256": "c72b25e9f70bc9f8fd066a873defea730e92043e02e5a6a23ad284eaef9d89b2",
+  "mode": "PHYSICAL_DNA_A260_SELECTED_WELLS_READ",
+  "status": "complete",
+  "started_at": "2026-10-10T13:13:52.217894+00:00",
+  "instrument": {
+    "model": "Anthos Fluoro",
+    "firmware": "V1.2 b13 11.12.2014",
+    "device_number": 141,
+    "serial_number": "1191",
+    "excitation_slide_id": 2,
+    "emission_slide_id": 1,
+    "device_code": 57855,
+    "plate_control": true,
+    "pic_firmware": "V1.0 b5 30.01.2006",
+    "cpld_version": 6,
+    "raw": "+\rAnthos Fluoro\rV1.2 b13 11.12.2014\r141\r1191\rExcitation Filter Slider Nr: 2\rEmission Filter Slider Nr: 1\rBarcode: not installed\rTemperatureControl: installed\rDevice Code: 57855\rPlate Control: TRUE\rPIC Firmware: + V1.0 b5 30.01.2006\rCPLD Version: 6"
+  },
+  "installed_slides": {
+    "excitation_slide_id": 2,
+    "emission_slide_id": 1
+  },
+  "selected_filter": {
+    "kind": "excitation",
+    "slide_id": 2,
+    "position": 1,
+    "wavelength": 260,
+    "bandwidth": 12
+  },
+  "read_requested_at": "2026-10-10T13:14:17.315973+00:00",
+  "missing_well_count": 0,
+  "temperature": 23.3,
+  "measurement_timestamp": 1791638063.9512653,
+  "finished_at": "2026-10-10T13:15:17.623884+00:00"
+}

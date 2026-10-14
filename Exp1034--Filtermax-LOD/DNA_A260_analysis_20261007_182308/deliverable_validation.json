@@ -1,0 +1,10 @@
+{
+  "pdf_pages": 20,
+  "png_figures": 15,
+  "svg_figures": 15,
+  "pdf_visual_review": "All 20 pages inspected as rendered images; corrected plate map reinspected at higher resolution.",
+  "notebook_execution": "21 code cells executed successfully, with 15 embedded images and no error outputs",
+  "reportlab_version": "4.4.9",
+  "pdf_reader_validation": "All pages contain text; expected corrected concentration labels present",
+  "hardware_access": "None; analysis scripts import no hardware drivers"
+}

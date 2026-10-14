@@ -1,0 +1,17 @@
+volume_uL,fit_kind,metric,estimate_ng_uL,ci95_low,ci95_high,mass_ng,bootstrap_positive_slope_fraction,status
+50,concentration_full,DL,0.732315250073,0.337665659784,0.887754062725,36.6157625037,1,Exploratory blank-noise estimate; no independent validation
+50,concentration_full,QL,2.21913712143,1.02322927207,2.69016382644,110.956856072,1,Exploratory blank-noise estimate; no independent validation
+50,concentration_low,DL,0.842411592868,0.370865998944,1.28614916112,42.1205796434,1,Exploratory blank-noise estimate; no independent validation
+50,concentration_low,QL,2.55276240263,1.12383636044,3.89742170036,127.638120132,1,Exploratory blank-noise estimate; no independent validation
+75,concentration_full,DL,1.43677099333,0.626390468163,1.76739757567,107.7578245,1,Exploratory blank-noise estimate; no independent validation
+75,concentration_full,QL,4.35385149494,1.89815293383,5.35575022932,326.538862121,1,Exploratory blank-noise estimate; no independent validation
+75,concentration_low,DL,1.44221577488,0.621512866562,1.7819063986,108.166183116,1,Exploratory blank-noise estimate; no independent validation
+75,concentration_low,QL,4.37035083298,1.88337232291,5.39971635938,327.776312473,1,Exploratory blank-noise estimate; no independent validation
+100,concentration_full,DL,1.01973724474,0.395964639053,1.31844876241,101.973724474,1,Exploratory blank-noise estimate; no independent validation
+100,concentration_full,QL,3.09011286286,1.19989284562,3.99529928004,309.011286286,1,Exploratory blank-noise estimate; no independent validation
+100,concentration_low,DL,1.01134647493,0.393241616097,1.31422522173,101.134647493,1,Exploratory blank-noise estimate; no independent validation
+100,concentration_low,QL,3.06468628768,1.1916412609,3.9825006719,306.468628768,1,Exploratory blank-noise estimate; no independent validation
+200,concentration_full,DL,1.12159381268,0.300466485333,1.33638300307,224.318762536,1,Exploratory blank-noise estimate; no independent validation
+200,concentration_full,QL,3.39876912934,0.91050450101,4.04964546384,679.753825868,1,Exploratory blank-noise estimate; no independent validation
+200,concentration_low,DL,1.06757326819,0.284480500327,1.26800917655,213.514653638,1,Exploratory blank-noise estimate; no independent validation
+200,concentration_low,QL,3.23507050967,0.862062122202,3.84245205016,647.014101933,1,Exploratory blank-noise estimate; no independent validation

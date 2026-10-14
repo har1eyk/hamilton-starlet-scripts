@@ -1,0 +1,91 @@
+EXP1034 ORANGE G - FLUOstar OPTIMA
+
+WHAT THIS DOWNLOAD CONTAINS
+Exp1034_OrangeG_Sample_IDs.txt is a sample-ID import file for all 96 wells.
+It does not configure the acquisition method. No native .TSC protocol is
+included. Follow the setup below, then import the IDs.
+
+CREATE THE READ METHOD [1]
+Test Setup > Test Protocol > New. Name: Exp1034_OrangeG.
+Method: Absorbance. Mode: Endpoint (one read per well).
+Plate: select your installed definition matching Corning 3635, 96 wells.
+Flashes: 20 per well. Positioning delay: 0.5 seconds.
+Absorbance filter: excitation wheel; emission position: Empty.
+Path Length Correction: OFF.
+Layout: Sample (X), Increase, Replicates 1; click the grid's "96" corner
+and verify all 96 wells are selected with individual sample numbers.
+Injections: none. Save the method.
+
+WAVELENGTH
+Use an installed 480 nm absorbance filter if available: Orange G has an
+absorption maximum near this wavelength [2]. An installed 492 nm filter
+is also used for Orange G absorbance measurements [3]. Choose one and
+use that same wavelength for samples and calibration references.
+The available filters and your software version have not been confirmed.
+If Absorbance is unavailable, this reader's installed options need checking.
+
+IMPORT THE WELL IDENTIFIERS [1]
+Open the method's Start Measurement dialog, then:
+Sample IDs / Dilution Factors > Import IDs > Exp1034_OrangeG_Sample_IDs.txt.
+Verify A1 = A27_200uL_R2 and H12 = A26_075uL_R3.
+Each line matches the supplied exported-ids.txt format:
+well at column 1, Content (X1-X96) at column 5, sample ID at column 12.
+Content numbering follows rows: A1=X1, A12=X12, B1=X13, H12=X96.
+Records are ordered down columns to match the supplied reader display.
+The file omits dilution values, as does the supplied export. Verify that
+the reader's existing dilution factors remain 1.
+Keep the fixed-width spaces; do not resave as CSV. Encoding is ASCII with
+Windows CRLF line endings, no header and no byte-order mark.
+
+PLATE MAP
+The map comes directly from Exp1034's well_assignments.json.
+Each sample ID records source tube, intended volume and replicate number.
+Example: A30_200uL_R1 means source A30, intended 200 uL, replicate 1.
+There are 24 wells at each intended volume: 50, 75, 100 and 200 uL.
+The original map assigns A31 to buffer (six wells at each volume) and
+A30-A25 to sample tubes (three wells per source at each volume).
+Orange G concentrations have NOT been inferred from the DNA concentrations.
+These labels remain usable for either uniform dye or a dilution series.
+Confirm the physical plate follows that map and orient A1 using the reader's
+plate-holder markings. Plate_Map.txt provides a row-by-row reference.
+
+READOUT AND VOLUME INTERPRETATION
+Export the individual raw absorbance (OD) for all 96 wells with well names
+and sample IDs; preserve individual readings rather than averaged groups.
+If A31 contained dye-free matching buffer, its wells can supply background
+estimates grouped by intended volume. Avoid pooling all four blank volumes.
+Raw OD is not a direct measurement in uL. Converting it to actual volume
+requires independently prepared known-volume references in the same plate
+type, using the same Orange G concentration, buffer and wavelength. Use
+references spanning 50-200 uL and check that the calibration is usable over
+that range. Do not treat robot-target volumes as independent standards.
+If the sample tubes contain different dye concentrations, analyze each
+concentration separately or use its corresponding calibration.
+Corning lists 75-200 uL as the recommended working range for this plate [4];
+include the 50 uL condition in the empirical calibration assessment.
+
+TO COMPLETE A NATIVE IMPORTABLE PROTOCOL
+From your OPTIMA software, export an existing absorbance test using
+Test Setup > Test Protocol > Export. The documented newer format is .TSC;
+older installations may export .TST with companion files [1]. Send the
+exported file (or the complete exported folder as a ZIP) and your software
+version/filter list so its format and installed settings can be inspected.
+
+VALIDATION
+All 96 IDs were checked against the experiment map; all Content values
+X1-X96 are unique and follow the numbering visible in the supplied reader
+screenshots. The A1 and B1 records match the supplied exported-ids.txt byte
+for byte. Import into the OPTIMA software remains to be confirmed on the
+reader computer; no reader connection or hardware run was performed.
+
+REFERENCES
+[1] BMG LABTECH, OPTIMA Software Manual Part II, 2007-11-12,
+    document 0413F0011A, pp. 35, 37, 55, 70, 81-82.
+    https://www.tmd.ac.jp/cmn/gene/center/0413F0011A%20%20Software%20Manual%20OPTIMA%20Part%20II.pdf
+[2] HiMedia, Orange G GRM970 specification: 470-480 nm in water.
+    https://www.himedialabs.com/us/grm970-orange-g-practical-grade.html
+[3] LABTECH LT-4500 Instructions for Use, section 5.3.4, p. 47
+    (manufacturer manual mirror; used only for the Orange G wavelength).
+    https://manualzz.com/doc/76932717/labtech-lt-4500-instructions-for-use-manual
+[4] Corning 3635 product specification.
+    https://ecatalog.corning.com/life-sciences/b2b/US/en/Microplates/Assay-Microplates/96-Well-Microplates/Corning%C2%AE-96-well-UV-Transparent-Microplates/p/3635

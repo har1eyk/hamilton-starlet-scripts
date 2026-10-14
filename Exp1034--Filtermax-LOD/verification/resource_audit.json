@@ -1,0 +1,218 @@
+{
+  "tips": {
+    "1000": {
+      "nominal": 1000,
+      "maximum": 1065,
+      "filtered": true,
+      "available": 96,
+      "constructor_model": "hamilton_96_tiprack_standard",
+      "length": 95.1,
+      "fitting_depth": 8,
+      "exposed_length": 85.1
+    },
+    "300": {
+      "nominal": 300,
+      "maximum": 400,
+      "filtered": false,
+      "available": 96,
+      "constructor_model": "hamilton_96_tiprack_standard",
+      "length": 59.9,
+      "fitting_depth": 8,
+      "exposed_length": 51.9
+    },
+    "50": {
+      "nominal": 50,
+      "maximum": 65,
+      "filtered": false,
+      "available": 96,
+      "constructor_model": "hamilton_96_tiprack_standard",
+      "length": 50.4,
+      "fitting_depth": 8,
+      "exposed_length": 42.4
+    }
+  },
+  "deck_tracks": 30,
+  "tip_carrier_track": 25,
+  "tip_carrier_location": {
+    "x": 640.0,
+    "y": 63,
+    "z": 100
+  },
+  "tube_carrier_track": 19,
+  "plate_carrier_track": 7,
+  "plate_carrier_model": "MFX_CAR_L5_base",
+  "plate_modules": {
+    "0": {
+      "model": "hamilton_mfx_plateholder_DWP_metal_tapped",
+      "location": {
+        "x": 0,
+        "y": 4.5,
+        "z": 18.2
+      }
+    },
+    "1": {
+      "model": "hamilton_mfx_plateholder_DWP_metal_tapped",
+      "location": {
+        "x": 0,
+        "y": 100.5,
+        "z": 18.2
+      }
+    },
+    "2": {
+      "model": "hamilton_mfx_plateholder_DWP_metal_tapped",
+      "location": {
+        "x": 0,
+        "y": 196.5,
+        "z": 18.2
+      }
+    },
+    "3": {
+      "model": "hamilton_mfx_plateholder_DWP_metal_tapped",
+      "location": {
+        "x": 0,
+        "y": 292.5,
+        "z": 18.2
+      }
+    },
+    "4": {
+      "model": "hamilton_mfx_plateholder_DWP_metal_tapped",
+      "location": {
+        "x": 0,
+        "y": 388.5,
+        "z": 18.2
+      }
+    }
+  },
+  "plate_reference": {
+    "model": "cor_96_wellplate_360uL_Fb",
+    "physical_catalog": "3635",
+    "size": [
+      127.76,
+      85.48,
+      14.2
+    ],
+    "A1_lower_left": {
+      "x": 10.87,
+      "y": 70.77,
+      "z": 3.03
+    },
+    "H12_lower_left": {
+      "x": 109.87,
+      "y": 7.77,
+      "z": 3.03
+    },
+    "orientation": "landscape; A1 rear-left, H12 front-right on STAR deck",
+    "physical_3635_correspondence_verified": true,
+    "correspondence_evidence": "User confirmed 3635 has the same dimensions as the supplied resource."
+  },
+  "tube_coordinates": {
+    "A32": {
+      "site": 0,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 71.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 77.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    },
+    "A31": {
+      "site": 1,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 86.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 92.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    },
+    "A30": {
+      "site": 2,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 101.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 107.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    },
+    "A29": {
+      "site": 3,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 116.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 122.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    },
+    "A28": {
+      "site": 4,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 131.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 137.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    },
+    "A27": {
+      "site": 5,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 146.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 152.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    },
+    "A26": {
+      "site": 6,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 161.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 167.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    },
+    "A25": {
+      "site": 7,
+      "bottom_origin": {
+        "x": 513.5,
+        "y": 176.5,
+        "z": 110.6
+      },
+      "center_x": 519.5,
+      "center_y": 182.5,
+      "cavity_bottom_z": 111.6,
+      "rim_z": 185.6
+    }
+  },
+  "tube_geometry": {
+    "outer_height": 75,
+    "material_thickness": 1,
+    "inner_height": 74,
+    "rim_above_carrier": 25.6,
+    "height_per_volume": 0.01175032,
+    "height_intercept": 3.622768533,
+    "definition_branch": "add-12x75mm-test-tube",
+    "definition_commit": "d62db0a42",
+    "mount_evidence": "Exp1031 endotoxin_assay_w_12x75mm_tubes.ipynb"
+  },
+  "placement_check": "PASS: no collision bypass or deprecated rails argument"
+}

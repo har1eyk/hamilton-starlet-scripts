@@ -1,0 +1,23 @@
+{
+  "physical_plate_catalog": "3635",
+  "geometry_verified": false,
+  "geometry_evidence": "",
+  "expected_serial": "",
+  "plate_geometry": {
+    "rows": 8,
+    "columns": 12,
+    "length": null,
+    "width": null,
+    "height": null,
+    "well_depth": null,
+    "left_column_offset": null,
+    "top_row_offset": null,
+    "column_spacing": null,
+    "row_spacing": null,
+    "well_size_x": null,
+    "well_size_y": null,
+    "absorbance_z": null,
+    "name": "Corning 3635 - REQUIRES VERIFIED GEOMETRY",
+    "orientation": "portrait"
+  }
+}

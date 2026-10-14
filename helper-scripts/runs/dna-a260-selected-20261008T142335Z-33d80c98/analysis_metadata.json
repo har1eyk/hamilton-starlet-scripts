@@ -1,0 +1,15 @@
+{
+  "blank_well": "A8",
+  "blank_a260": 0.05913,
+  "blank_selection": "Lowest finite raw A260; first entered well wins ties.",
+  "slope": 0.00338,
+  "intercept": 0.0022,
+  "dilution_factor": 10,
+  "equation": "blank_corrected_a260 = 0.00338 * calculated_concentration_ng_uL + 0.0022",
+  "reported_concentration": "calculated_concentration_ng_uL * 10",
+  "additional_volume_correction_applied": false,
+  "pathlength_correction_applied": false,
+  "raw_csv": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/helper-scripts/runs/dna-a260-selected-20261008T142335Z-33d80c98/raw_a260.csv",
+  "raw_csv_sha256": "e8c9678f112e88d36fb1a25682e1e127d2f308161f9ee9fc0196ddd09640fdfc",
+  "analyzed_at": "2026-10-08T14:25:01.275055+00:00"
+}

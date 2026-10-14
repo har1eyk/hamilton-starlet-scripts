@@ -1,0 +1,50 @@
+{
+  "200": {
+    "concentrations": [
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "reviewed": false,
+    "reason": ""
+  },
+  "100": {
+    "concentrations": [
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "reviewed": false,
+    "reason": ""
+  },
+  "75": {
+    "concentrations": [
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "reviewed": false,
+    "reason": ""
+  },
+  "50": {
+    "concentrations": [
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "reviewed": false,
+    "reason": ""
+  }
+}

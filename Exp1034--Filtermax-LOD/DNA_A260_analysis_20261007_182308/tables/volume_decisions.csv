@@ -1,0 +1,5 @@
+volume_uL,lowest_tested_ng_uL,lowest_tested_mass_ng,cv_at_lowest_percent,signal_in_blank_sd_at_lowest,all_3_above_blank_screen_at_lowest,lowest_strict_screen_ng_uL,strict_screen_definition
+50,2.1875,109.375,100.509196099,31.6648611345,True,8.75,"All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"
+75,2.1875,164.0625,18.8676086729,6.23220614698,True,8.75,"All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"
+100,2.1875,218.75,8.49174602833,8.23984909074,True,4.375,"All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"
+200,2.1875,437.5,7.97488108003,7.65181839506,True,4.375,"All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"

@@ -1,0 +1,107 @@
+[
+  {
+    "slug": "01_plate_layout",
+    "title": "01  Plate layout and electronic identity audit",
+    "caption": "All 96 raw sample IDs match both the run manifest and the experiment layout. There are 72 DNA wells and 24 A31 buffer blanks. Original concentration metadata uses 16 ng/\u00b5L for A30; this map uses the user-corrected 70 ng/\u00b5L stock and nominal twofold dilutions. Electronic agreement does not independently prove physical contents.",
+    "png": "figures/01_plate_layout.png",
+    "svg": "figures/01_plate_layout.svg"
+  },
+  {
+    "slug": "02_plate_absorbance",
+    "title": "02  Raw and corrected readings retain every well",
+    "caption": "All 96 readings are finite. Raw A260 ranges from 0.05649 to 0.53148 OD. Each well is corrected with its own volume's blank mean. D9 is outlined for follow-up, not excluded. Neither heatmap measures actual fill volumes.",
+    "png": "figures/02_plate_absorbance.png",
+    "svg": "figures/02_plate_absorbance.svg"
+  },
+  {
+    "slug": "03_blank_performance",
+    "title": "03  The 50 \u00b5L DNA-run blanks are quiet",
+    "caption": "Blank SDs are 0.000330, 0.001054, 0.001046 and 0.002242 OD at 50, 75, 100 and 200 \u00b5L. The high 50 \u00b5L background seen in the earlier Orange G run is absent here. This is a different preparation and wavelength; it does not identify the cause of the earlier problem.",
+    "png": "figures/03_blank_performance.png",
+    "svg": "figures/03_blank_performance.svg"
+  },
+  {
+    "slug": "04_concentration_series",
+    "title": "04  Concentration-response curves at each volume",
+    "caption": "Responses rise strongly with nominal concentration at every volume. Full-range R\u00b2 values are high, but this alone does not establish strict linearity or low-end accuracy. Fit all 18 sample wells per panel with a free intercept; the residual analysis shows where a straight line misses group means.",
+    "png": "figures/04_concentration_series.png",
+    "svg": "figures/04_concentration_series.svg"
+  },
+  {
+    "slug": "05_low_concentration_zoom",
+    "title": "05  Detecting a signal is different from precise measurement",
+    "caption": "All three 2.1875 ng/\u00b5L wells at each volume exceed the matching 3.3-blank-SD screen. Their corrected CVs are 100.5%, 18.9%, 8.5% and 8.0% as volume increases. Thus a favorable blank-noise ratio at 50 \u00b5L does not rescue its inconsistent low-concentration samples. Thresholds are exploratory screens, not validated detection probabilities.",
+    "png": "figures/05_low_concentration_zoom.png",
+    "svg": "figures/05_low_concentration_zoom.svg"
+  },
+  {
+    "slug": "06_volume_series",
+    "title": "06  Signal generally increases with well volume",
+    "caption": "At fixed concentration, larger planned volumes generally give larger corrected absorbance. The lowest concentration is disrupted by the elevated D9 result at 50 \u00b5L. At 2.1875 ng/\u00b5L, moving from 100 to 200 \u00b5L nearly doubles mean signal, but blank variability also increases, so signal gain alone is not a detection-limit improvement.",
+    "png": "figures/06_volume_series.png",
+    "svg": "figures/06_volume_series.svg"
+  },
+  {
+    "slug": "07_replicate_precision",
+    "title": "07  Precision favors 100 \u00b5L at the lowest tested concentration",
+    "caption": "At 100 and 200 \u00b5L, all six concentrations have within-condition corrected CV below 10%. At 75 \u00b5L, 2.1875 and 4.375 ng/\u00b5L have CVs of 18.9% and 12.9%. At 50 \u00b5L, CV is below 10% from 8.75 to 70 ng/\u00b5L, but fails badly at 2.1875 ng/\u00b5L. These three-well CVs measure within-plate repeatability, not dilution accuracy or between-day precision.",
+    "png": "figures/07_replicate_precision.png",
+    "svg": "figures/07_replicate_precision.svg"
+  },
+  {
+    "slug": "08_signal_and_precision",
+    "title": "08  Blank noise and sample precision must be considered together",
+    "caption": "The 50 \u00b5L, 2.1875 ng/\u00b5L mean is 31.7 blank SD above zero, yet its CV is 100.5%. In contrast, 100 \u00b5L gives a smaller ratio of 8.24 but much tighter samples. The blank-noise ratio is not instrument signal-to-noise and is not a substitute for repeatable sample results or accuracy validation.",
+    "png": "figures/08_signal_and_precision.png",
+    "svg": "figures/08_signal_and_precision.svg"
+  },
+  {
+    "slug": "09_exploratory_limits",
+    "title": "09  Noise-based limits are hypotheses to validate",
+    "caption": "Full-range blank-noise DL estimates are approximately 0.73, 1.44, 1.02 and 1.12 ng/\u00b5L; QL estimates are 2.22, 4.35, 3.09 and 3.40 ng/\u00b5L. The apparently favorable 50 \u00b5L DL conflicts with its low-end sample variability. The fixed 2.1875-17.5 ng/\u00b5L fits show range sensitivity. Values below 2.1875 ng/\u00b5L were not tested, and neither these intervals nor high R\u00b2 establish a validated limit.",
+    "png": "figures/09_exploratory_limits.png",
+    "svg": "figures/09_exploratory_limits.svg"
+  },
+  {
+    "slug": "10_volume_normalization",
+    "title": "10  Volume normalization diagnoses departures from simple scaling",
+    "caption": "Most volume-normalized responses are close to the 100 \u00b5L reference, particularly at moderate concentrations. The 50 \u00b5L, 2.1875 ng/\u00b5L point is elevated and uncertain because D9 raises its mean. Dividing by planned volume is a descriptive normalization, not a measured path-length correction or evidence of actual dispensed volume.",
+    "png": "figures/10_volume_normalization.png",
+    "svg": "figures/10_volume_normalization.svg"
+  },
+  {
+    "slug": "11_concentration_residuals",
+    "title": "11  High R\u00b2 does not rule out systematic departures",
+    "caption": "Red group means have 95% bootstrap departure intervals that exclude zero. Several conditions depart detectably from their fitted lines despite high R\u00b2. These are exploratory, unadjusted comparisons based on one plate. They can reflect optical response, dilution error, dispensing differences or isolated wells; they do not isolate a mechanism.",
+    "png": "figures/11_concentration_residuals.png",
+    "svg": "figures/11_concentration_residuals.svg"
+  },
+  {
+    "slug": "12_spatial_residuals",
+    "title": "12  Spatial checks locate influential wells without assigning causes",
+    "caption": "D9 is conspicuous within its own concentration-volume condition. Spatial residuals also identify the strongest discrepancies elsewhere, but each location has only one observation and variance changes with signal. A single map cannot distinguish a positional optical effect from pipetting, dilution or a bubble. All wells remain included.",
+    "png": "figures/12_spatial_residuals.png",
+    "svg": "figures/12_spatial_residuals.svg"
+  },
+  {
+    "slug": "13_d9_sensitivity",
+    "title": "13  D9 drives the largest low-volume inconsistency",
+    "caption": "At 50 \u00b5L and 2.1875 ng/\u00b5L, A8, C10 and D9 read 0.005148, 0.003658 and 0.022558 OD after subtraction. The three-well CV is 100.5%. Omitting D9 only as a sensitivity calculation leaves two wells with CV 23.9%, still uncertain. D9 has no documented physical exclusion reason and is retained in every primary result.",
+    "png": "figures/13_d9_sensitivity.png",
+    "svg": "figures/13_d9_sensitivity.svg"
+  },
+  {
+    "slug": "14_dna_mass",
+    "title": "14  Minimum concentration and minimum sample mass are different goals",
+    "caption": "At the lowest tested concentration of 2.1875 ng/\u00b5L, the wells contain nominally 109.375, 164.063, 218.75 and 437.5 ng at increasing volumes. The 100 \u00b5L condition resolves that level with 8.5% within-plate CV using 218.75 ng. Reducing volume saves DNA but reduces optical signal and can expose dispensing or meniscus variability. Actual DNA mass was not independently measured.",
+    "png": "figures/14_dna_mass.png",
+    "svg": "figures/14_dna_mass.svg"
+  },
+  {
+    "slug": "15_volume_residuals",
+    "title": "15  Volume-response residuals expose departures from a line",
+    "caption": "The 35 ng/\u00b5L series has an exploratory departure at 200 \u00b5L; the 70 ng/\u00b5L series has departures at 50, 100 and 200 \u00b5L. Lower-concentration series show no clear group departure by this conditional interval rule. The lowest concentration remains imprecise because of D9; absence of a clear departure is not proof of linearity.",
+    "png": "figures/15_volume_residuals.png",
+    "svg": "figures/15_volume_residuals.svg"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "run": 151,
+  "wavelength_nm": 492,
+  "export_header": [
+    [
+      "User: USER",
+      "Path: C:\\Program Files (x86)\\BMG\\OPTIMA\\User\\Data\\",
+      "Test run no.: 151"
+    ],
+    [
+      "Test name: ORANGE_G",
+      "Date: 10/6/2026",
+      "Time: 10:44:04 AM"
+    ],
+    [],
+    [
+      "ID1: Exp1034_OrangeG_dye_test",
+      "ID2: with_fixed_imported_ids_need_to_confirm",
+      ""
+    ],
+    [
+      "Absorbance"
+    ]
+  ],
+  "path_length_correction": false,
+  "correction_setting_source": "user confirmation",
+  "concentration_basis": "user-confirmed twofold series relative to A30",
+  "source_sha256": {
+    "OrangeG_dye_test_raw-data_w_sampleIDs.CSV": "18d8cda22ccbe85eea6bf3b934b301b499504c863742d3dbd902a1015190513f",
+    "Exp1034_OrangeG_Sample_IDs_fixed.txt": "652f411c9822b8f68842e9092dd5cd880fa5b9facdd080849e48cf42d0591a38",
+    "well_assignments.json": "8b6de1fa0b5ad7a7dfe075c1d351809c92d11f0b07c7fa5463737d3a94140bdd"
+  },
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 1034,
+  "relative_concentrations": {
+    "A30": 1.0,
+    "A29": 0.5,
+    "A28": 0.25,
+    "A27": 0.125,
+    "A26": 0.0625,
+    "A25": 0.03125
+  },
+  "ols_intercept": "free",
+  "rmse_denominator": "n",
+  "intervals": "pointwise percentile 95%; no multiplicity adjustment",
+  "software_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "verification": {
+    "status": "passed",
+    "well_count": 96,
+    "sample_count": 72,
+    "blank_count": 24,
+    "independent_regression": "scipy.stats.linregress for all 10 fits",
+    "maximum_ols_difference": 4.440892098500626e-16,
+    "bootstrap_regression_checks": 320,
+    "maximum_bootstrap_slope_difference": 4.440892098500626e-16,
+    "bootstrap_iterations": 10000,
+    "seed": 1034,
+    "seed_reproducible": true,
+    "shared_blank_draws_checked": true,
+    "all_96_corrections_independently_checked": true,
+    "negative_values_preserved": true,
+    "no_wells_excluded": true,
+    "source_copy_hashes_unchanged": true
+  }
+}

@@ -1,0 +1,4 @@
+well,role,raw_a260,blank_corrected_a260,calculated_concentration_ng_uL,reported_concentration_ng_uL,data_status
+A8,blank,0.05913,0.0,,,finite
+A9,sample,0.08535,0.026219999999999993,7.106508875739642,71.06508875739642,finite
+A12,sample,0.0593,0.00016999999999999654,-0.6005917159763324,-6.0059171597633245,finite

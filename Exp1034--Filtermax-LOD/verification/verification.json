@@ -1,0 +1,93 @@
+{
+  "status": "PASS: nominal offline checks; NOT physical validation",
+  "hardware_ready": false,
+  "wells": 96,
+  "whole_plate_volume": 10200,
+  "tip_counts": {
+    "1000": 74,
+    "300": 27
+  },
+  "source_residuals": {
+    "A32": 250,
+    "A31": 1450,
+    "A30": 225.0,
+    "A29": 225.0,
+    "A28": 225.0,
+    "A27": 225.0,
+    "A26": 225.0,
+    "A25": 1725.0
+  },
+  "dead_plus_loss_floors": {
+    "A32": 225.0,
+    "A31": 225.0,
+    "A30": 225.0,
+    "A29": 225.0,
+    "A28": 225.0,
+    "A27": 225.0,
+    "A26": 225.0,
+    "A25": 225.0
+  },
+  "limit_status": {
+    "A32": "supplied_assumption",
+    "A31": "supplied_assumption",
+    "A30": "supplied_assumption",
+    "A29": "supplied_assumption",
+    "A28": "supplied_assumption",
+    "A27": "supplied_assumption",
+    "A26": "supplied_assumption",
+    "A25": "supplied_assumption"
+  },
+  "nominal_loss": 0,
+  "loss_interpretation": "Supplied total losses are reserved, not simulated as exact losses.",
+  "reagent_budget": {
+    "initial_buffer": 8000,
+    "dilution_buffer": 7500,
+    "blank_buffer": 2550,
+    "total_buffer_delivered": 10050,
+    "minimum_initial_buffer_shortfall": 2050,
+    "nominal_refill_buffer": 3750,
+    "initial_DNA_solution": 3000,
+    "initial_DNA_mass_ng": 48000,
+    "plate_DNA_solution": 7650,
+    "per_concentration_plate_solution": 1275
+  },
+  "refills": [
+    {
+      "step": 79,
+      "action": "operator_refill_checkpoint",
+      "channel": 0,
+      "phase": "refill",
+      "source": "A31",
+      "before": 250,
+      "target_total": 4000,
+      "nominal_addition": 3750,
+      "acknowledgement": "SIMULATED"
+    }
+  ],
+  "mixing": {
+    "volume": 750.0,
+    "cycles": 8,
+    "flow": null,
+    "homogeneity_validated": false
+  },
+  "air_gap_capacity_reserve": 0,
+  "checks": [
+    "96 unique wells",
+    "exact concentration/source mapping",
+    "replicate labels",
+    "row/column balance",
+    "tip capacity including air reserve",
+    "tip inventory",
+    "no source overdraft",
+    "supplied residual floors on every aspiration",
+    "noncontact split transfers before mixing",
+    "single-channel operations",
+    "DNA mass conservation",
+    "refill acknowledgement before tracking update"
+  ],
+  "hardware_blockers": [
+    "Enter measured A30 concentration (16 ng/uL in 3000 uL total).",
+    "Record method validation for immersion, noncontact delivery, mixing, tip reach and source residual/loss limits.",
+    "Approve each physical run in the notebook before setup; dry-run success is not physical validation."
+  ]
+}

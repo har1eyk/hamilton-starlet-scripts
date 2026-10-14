@@ -1,0 +1,9 @@
+{
+  "notebook": "Exp1034--Filtermax-LOD.ipynb",
+  "mode": "OFFLINE_SIMULATION",
+  "status": "PASS",
+  "code_cells_executed": 9,
+  "simulation_output": "/home/hamilton-robot/Documents/hamilton-startlet-scripts/Exp1034--Filtermax-LOD/runs/simulation-20261002T234715Z-f9651eb7",
+  "unit_tests_passed": 22,
+  "physical_instruments_run": false
+}

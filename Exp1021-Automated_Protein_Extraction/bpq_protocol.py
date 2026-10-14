@@ -15,7 +15,7 @@ def _tip_col(rack: Any, col: int) -> Any:
 
 
 def _trough_channels(trough: Any) -> Any:
-    return trough["A1"] * 8
+    return [trough] * len(CHANNELS)
 
 
 def _well_height(plate: Any, volume: float) -> float:

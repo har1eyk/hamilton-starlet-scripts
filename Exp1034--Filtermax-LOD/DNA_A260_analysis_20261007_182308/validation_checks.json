@@ -1,0 +1,17 @@
+{
+  "complete_well_coverage": true,
+  "manifest_matches": true,
+  "raw_backend_mapping_matches": true,
+  "assignment_hash_matches": true,
+  "reader_blank_calculations_reproduced": true,
+  "reader_corrected_values_reproduced": true,
+  "source_files_modified": false,
+  "no_wells_excluded": true,
+  "independent_scipy_regressions_verified": 14,
+  "preserved_input_hashes_verified": 7,
+  "original_source_hashes_verified": 7,
+  "user_corrected_concentration_mapping_verified": true,
+  "negative_blank_corrected_readings_retained": 14,
+  "bootstrap_shape_verified": true,
+  "exploratory_limit_arithmetic_verified": true
+}

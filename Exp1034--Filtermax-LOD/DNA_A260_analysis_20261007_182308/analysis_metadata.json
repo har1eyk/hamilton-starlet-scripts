@@ -1,0 +1,141 @@
+{
+  "run": "dna-a260-f5-20261007T182308Z-4a000d5d",
+  "wavelength_nm": 260,
+  "seed": 1034,
+  "bootstrap_resamples": 10000,
+  "wells": 96,
+  "samples": 72,
+  "blanks": 24,
+  "excluded_wells": [],
+  "all_electronic_labels_match": true,
+  "user_reported_A30_ng_uL": 70.0,
+  "original_export_A30_ng_uL": 16.0,
+  "concentration_scale_correction": 4.375,
+  "nominal_concentrations_ng_uL": [
+    2.1875,
+    4.375,
+    8.75,
+    17.5,
+    35.0,
+    70.0
+  ],
+  "concentration_note": "User corrected A30 to 70 ng/uL. Original concentration metadata is preserved and superseded for analysis; other tubes assume the same twofold dilution. No independent concentration verification.",
+  "physical_contents_independently_verified": false,
+  "pathlength_correction": false,
+  "reader_validity_review": "pending in original export; all finite readings retained for exploratory analysis",
+  "signal_min_raw": 0.05649,
+  "signal_max_raw": 0.5314800000000001,
+  "decisions": [
+    {
+      "volume_uL": 50,
+      "lowest_tested_ng_uL": 2.1875,
+      "lowest_tested_mass_ng": 109.375,
+      "cv_at_lowest_percent": 100.50919609855812,
+      "signal_in_blank_sd_at_lowest": 31.664861134512332,
+      "all_3_above_blank_screen_at_lowest": true,
+      "lowest_strict_screen_ng_uL": 8.75,
+      "strict_screen_definition": "All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"
+    },
+    {
+      "volume_uL": 75,
+      "lowest_tested_ng_uL": 2.1875,
+      "lowest_tested_mass_ng": 164.0625,
+      "cv_at_lowest_percent": 18.86760867294649,
+      "signal_in_blank_sd_at_lowest": 6.23220614697793,
+      "all_3_above_blank_screen_at_lowest": true,
+      "lowest_strict_screen_ng_uL": 8.75,
+      "strict_screen_definition": "All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"
+    },
+    {
+      "volume_uL": 100,
+      "lowest_tested_ng_uL": 2.1875,
+      "lowest_tested_mass_ng": 218.75,
+      "cv_at_lowest_percent": 8.491746028326597,
+      "signal_in_blank_sd_at_lowest": 8.239849090739556,
+      "all_3_above_blank_screen_at_lowest": true,
+      "lowest_strict_screen_ng_uL": 4.375,
+      "strict_screen_definition": "All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"
+    },
+    {
+      "volume_uL": 200,
+      "lowest_tested_ng_uL": 2.1875,
+      "lowest_tested_mass_ng": 437.5,
+      "cv_at_lowest_percent": 7.974881080026277,
+      "signal_in_blank_sd_at_lowest": 7.6518183950623495,
+      "all_3_above_blank_screen_at_lowest": true,
+      "lowest_strict_screen_ng_uL": 4.375,
+      "strict_screen_definition": "All 3 wells > 10 blank SD and corrected CV <= 10%; exploratory, not validated LOQ"
+    }
+  ],
+  "blank_statistics": [
+    {
+      "volume_uL": 50,
+      "n": 6,
+      "blank_mean": 0.05754166666666665,
+      "blank_sd": 0.00033017672035847996,
+      "mean_ci95_low": 0.05730333333333329,
+      "mean_ci95_high": 0.057784999999999996,
+      "sd_boot_ci95_low": 0.0001526324561378542,
+      "sd_boot_ci95_high": 0.00039422920575051066,
+      "raw_threshold_3_3sd": 0.05863124984384963,
+      "raw_threshold_10sd": 0.06084343387025145,
+      "blank_wells": "A12;C6;E4;F7;G2;H5"
+    },
+    {
+      "volume_uL": 75,
+      "n": 6,
+      "blank_mean": 0.057558333333333316,
+      "blank_sd": 0.0010539339005206647,
+      "mean_ci95_low": 0.056841416666666644,
+      "mean_ci95_high": 0.058346666666666665,
+      "sd_boot_ci95_low": 0.00046063723977407143,
+      "sd_boot_ci95_high": 0.0012962985767175836,
+      "raw_threshold_3_3sd": 0.06103631520505151,
+      "raw_threshold_10sd": 0.06809767233853996,
+      "blank_wells": "A7;B2;D12;E11;F10;H4"
+    },
+    {
+      "volume_uL": 100,
+      "n": 6,
+      "blank_mean": 0.05780166666666666,
+      "blank_sd": 0.0010459333949476264,
+      "mean_ci95_low": 0.057065,
+      "mean_ci95_high": 0.058585000000000005,
+      "sd_boot_ci95_low": 0.0004044090338588731,
+      "sd_boot_ci95_high": 0.001357037213933355,
+      "raw_threshold_3_3sd": 0.06125324686999383,
+      "raw_threshold_10sd": 0.06826100061614293,
+      "blank_wells": "A10;B5;C12;D3;E6;H7"
+    },
+    {
+      "volume_uL": 200,
+      "n": 6,
+      "blank_mean": 0.05936166666666667,
+      "blank_sd": 0.002242386377649191,
+      "mean_ci95_low": 0.05781333333333333,
+      "mean_ci95_high": 0.06095166666666666,
+      "sd_boot_ci95_low": 0.000599021424213411,
+      "sd_boot_ci95_high": 0.002674135374284553,
+      "raw_threshold_3_3sd": 0.06676154171290899,
+      "raw_threshold_10sd": 0.08178553044315857,
+      "blank_wells": "A9;B12;C7;D10;E1;H6"
+    }
+  ],
+  "bootstrap_scope": "Resample 3 wells within each condition and 6 blanks within volume; reuse each resampled blank mean. Does not cover plate/day, dilution-chain or concentration uncertainty.",
+  "linearity_rule": "Free-intercept OLS; group departure 95% bootstrap intervals excluding zero are exploratory, unadjusted for multiple comparisons.",
+  "limit_rule": "3.3 or 10 times sample blank SD divided by slope; full 2.1875-70 and fixed lower-four-level 2.1875-17.5 ng/uL ranges. Extrapolation below 2.1875 is untested.",
+  "sources": [
+    {
+      "title": "Corning 3635 product specification",
+      "url": "https://ecatalog.corning.com/life-sciences/b2b/SEA/en/Microplates/Assay-Microplates/96-Well-Microplates/Corning%C2%AE-96-well-UV-Transparent-Microplates/p/3635"
+    },
+    {
+      "title": "ICH Q2(R2), sections 3.2.3.3-3.2.3.5",
+      "url": "https://database.ich.org/sites/default/files/ICH_Q2%28R2%29_Guideline_2023_1130.pdf"
+    },
+    {
+      "title": "Molecular Devices: DNA/RNA absorbance and path length",
+      "url": "https://www.moleculardevices.com/en/assets/app-note/br/dna-and-rna-absorbance-measurements-using-spectramax-microplate-readers"
+    }
+  ]
+}

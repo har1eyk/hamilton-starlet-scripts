@@ -1,0 +1,43 @@
+[
+  {
+    "test": "incorrect sample ID rejected",
+    "status": "passed",
+    "rejection": "ID audit failed: txt_id_matches."
+  },
+  {
+    "test": "incorrect Content number rejected",
+    "status": "passed",
+    "rejection": "ID audit failed: content_matches."
+  },
+  {
+    "test": "incorrect exported ID rejected",
+    "status": "passed",
+    "rejection": "ID audit failed: reader_id_matches."
+  },
+  {
+    "test": "missing measurement rejected",
+    "status": "passed",
+    "rejection": "could not convert string to float: ''"
+  },
+  {
+    "test": "nonfinite measurement rejected",
+    "status": "passed",
+    "rejection": "Nonfinite raw OD."
+  },
+  {
+    "test": "known linear response with nonzero intercept",
+    "status": "passed"
+  },
+  {
+    "test": "all three original files unchanged and copied byte for byte",
+    "status": "passed"
+  },
+  {
+    "test": "all seven notebook code cells executed without errors",
+    "status": "passed"
+  },
+  {
+    "test": "all six exported CSV row counts match the analysis design",
+    "status": "passed"
+  }
+]

@@ -1,0 +1,26 @@
+EXP1034 ORANGE G ANALYSIS - RUN 151
+
+Open OrangeG_analysis_report.html in a web browser for the complete results.
+The report embeds its plots, so it can also be viewed on its own.
+
+The figures/ folder contains four figures, each in PNG and editable SVG.
+The tables/ folder contains six CSVs with all well results, blank statistics,
+group summaries, fit estimates, group departures and the 96-well ID audit.
+
+To reproduce:
+1. Extract the entire ZIP, keeping the folder structure intact.
+2. Use Python 3.12 with the packages in requirements.txt.
+3. Open OrangeG_analysis.ipynb in your notebook application, with this folder
+   as the working directory, then Run All. The notebook imports
+   orange_g_analysis.py and verifies the exact source-file hashes.
+
+The notebook contains executed outputs. Rerunning regenerates analysis
+outputs inside this folder; it does not modify inputs or drive hardware.
+The original reader CSV, ID file and manifest are preserved byte for byte
+in inputs/. Source provenance and verification results are recorded in JSON.
+
+All 96 electronic IDs match the dispensing map. Volume-matched blank means
+were subtracted. All 72 samples are retained, including negative readings.
+Concentrations are relative to A30; absolute dye concentration and actual
+liquid volumes were not inferred. Pointwise bootstrap intervals are
+exploratory, with no adjustment for multiple comparisons.
